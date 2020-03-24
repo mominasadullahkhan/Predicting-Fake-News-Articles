@@ -1,5 +1,5 @@
 --------
-# Predicting Fake News Articles - Capstone 1
+# Predicting Fake News Articles - Capstone 2
 -------- 
 Hi!
 
