@@ -1,3 +1,29 @@
+import pandas as pd 
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import re as re
+import scipy.stats as stats
+import math
+from textblob import TextBlob
+from sklearn import metrics 
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import roc_auc_score, classification_report, confusion_matrix
+from sklearn.metrics import auc
+from sklearn.linear_model import LogisticRegression
+import scipy.stats as stats
+import keras
+from keras.models import Sequential
+from keras.layers import Dense, Embedding, LSTM, SpatialDropout1D, Activation, Dropout
+from keras.callbacks import EarlyStopping
+from sklearn.model_selection import GridSearchCV
+from nltk.corpus import stopwords
+from nltk import word_tokenize
+
+
 def findlength(dataframe, column_name):
     
     """
@@ -15,16 +41,13 @@ def findlength(dataframe, column_name):
         Length of text entries
     """
 
-    try:
-        hold = [len(str(words)) for words in df[column_name]]
-    except: 
-        print('Check datatype or column name.')
-    return hold
+    length_te = [len(str(words)) for words in dataframe[column_name]]
+    return length_te
 
 def null_plot(df, kind):
     
     """
-    null_plot plots null counts in each column of the DataFrame
+    null_plot plots null counts of each column of the DataFrame
 
     Parameters
     ----------
@@ -80,9 +103,9 @@ def preprocess(article_text):
     # Remove non-breaking space 
     article_text = article_text.str.replace('(\xa0)', ' ')  
     # Remove Emails
-    article_text = [re.sub('\S*@\S*\s?', '', str(sent)) for sent in article_text]
+    article_text = [re.sub(r"\S*@\S*\s?", '', str(sent)) for sent in article_text]
     # Remove new line characters
-    article_text = [re.sub('\s+', ' ', sent) for sent in article_text]
+    article_text = [re.sub(r"\s+", ' ', sent) for sent in article_text]
     # Remove distracting single quotes
     article_text = [re.sub("\'", "", sent) for sent in article_text]
     
