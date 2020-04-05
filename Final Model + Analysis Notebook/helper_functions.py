@@ -304,7 +304,7 @@ def log_reg_classifier(model, cw, c, xtrain, ytrain, xtest, ytest):
 # Train Multinomial Naive Bayes classifier and its roc-auc score, accuracy, confusion matrix & classification report.
 def mnb_classifier(model, alpha, xtrain, ytrain, xtest, ytest):
 
-        """
+    """
     mnb_classifier trains, tests and evaluates a Multinomial Naive Bayes Classifier
 
     Parameters
@@ -326,7 +326,7 @@ def mnb_classifier(model, alpha, xtrain, ytrain, xtest, ytest):
     -------
         The model's AUC-ROC score, accuracy, confusion matrix and classification report. 
     """
-    
+
     nb_classifier = model(alpha=alpha)
     nb_classifier.fit(xtrain, ytrain)
     pred = nb_classifier.predict(xtest)
