@@ -3,7 +3,7 @@
 -------- 
 Hi!
 
-My name is Momin Khan and this is my repo for my second capstone project: Predicting Fake News on a Social Media Platform.
+My name is Momin Khan and this is my repo for my second capstone project: Predicting Fake News Articles on a Social Media Platform.
 
 I completed a number of projects as part of the Springboard Data Science Track.
 
@@ -13,9 +13,9 @@ To find out more about this project, check out the attached presentation below!
 
 Jupyter notebook for project: [View here](https://github.com/mominasadullahkhan/Predicting-Fake-News-Articles/blob/master/Final%20Model%20%2B%20Analysis%20Notebook/Final_Notebook_Capstone2_Detecting_Fake_News.ipynb)
 
-Final write up: [View here]()
+Final write up: [View here](https://github.com/mominasadullahkhan/Predicting-Fake-News-Articles/blob/master/Fake_News_Classifier_Final_Report.pdf)
 
-Slides presentation: [View here]()
+Slides presentation: [View here](https://github.com/mominasadullahkhan/Predicting-Fake-News-Articles/blob/master/Capstone2_Fake_News_Slidedeck%20.pdf)
 
 Blog post: [View here]()
 
