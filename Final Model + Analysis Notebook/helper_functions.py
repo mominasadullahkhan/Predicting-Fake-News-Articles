@@ -42,6 +42,7 @@ def findlength(dataframe, column_name):
     """
 
     length_te = [len(str(words)) for words in dataframe[column_name]]
+    
     return length_te
 
 def null_plot(df, kind):
