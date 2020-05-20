@@ -17,10 +17,10 @@ Final write up: [View here](https://github.com/mominasadullahkhan/Predicting-Fak
 
 Slides presentation: [View here](https://github.com/mominasadullahkhan/Predicting-Fake-News-Articles/blob/master/Capstone2_Fake_News_Slidedeck%20.pdf)
 
-Blog post: [View here]()
+Blog post: [View here](https://towardsdatascience.com/predicting-fraudulent-news-articles-using-nlp-deep-learning-ffdf64f19537)
 
 The detailed reports depicting the process: [Write Ups](https://github.com/mominasadullahkhan/Predicting-Fake-News-Articles/tree/master/Detailed%20Milestone%20Reports)
 
-For more information about my Springboard work: All of the documentation, code, and notes can be found [https://towardsdatascience.com/predicting-fraudulent-news-articles-using-nlp-deep-learning-ffdf64f19537](https://github.com/mominasadullahkhan/Springboard). 
+For more information about my Springboard work: All of the documentation, code, and notes can be found [here](https://github.com/mominasadullahkhan/Springboard). 
 
 For questions or comments, please feel free to reach out on [LinkedIn!](https://www.linkedin.com/in/mominkhan94/) or [Twitter](https://twitter.com/mominasadullah)
